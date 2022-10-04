@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        width: 500px;
+        height: 300px;
+        border: 1px solid #000;
+        margin: 50px auto;
+      }
+
+      .box ul,
+      .box ol {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .box ul {
+        background-color: pink;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .box ul li {
+        flex: 1;
+        height: 50px;
+        text-align: center;
+        line-height: 30px;
+      }
+
+      .box ul li.active {
+        background-color: #ff0;
+      }
+
+      .box ol li a img {
+        width: 500px;
+        height: 250px;
+      }
+
+      .box ol li {
+        display: none;
+      }
+
+      .box ol li.active {
+        display: block;
+      }
+
+      .box {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <ul>
+        <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+      <ol>
+        <li class="active">第一</li>
+        <li>第二</li>
+        <li>第三</li>
+      </ol>
+    </div>
+  </body>
+  <script></script>
+</html>
