@@ -1,0 +1,14 @@
+<!--pages/demo/demo.wxml-->
+
+<!-- 按钮 -->
+<view bindtap="handShowMask">
+  {{texts}}
+</view>
+
+<view class="canvas-box">
+  <canvas type="2d" id="pie" class="pie" style="width:375px;height:375px;">
+    <cover-view class="text-desc">
+      <cover-view>5555</cover-view>
+    </cover-view>
+  </canvas>
+</view>

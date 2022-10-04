@@ -1,0 +1,31 @@
+<!--components/macks/macks.wxml-->
+<view class="mask {{showMack?'aos':''}}" bindtap="handClickHidden">
+  <view class="area-title">
+    <text class="area-title-text">请选择</text>
+  </view>
+  <view class="scroll-box">
+    <scroll-view class="scroll-componment" scroll-y="true" scroll-into-view="{{topItemId}}">
+      <block wx:for="{{areaAry}}" wx:key="index">
+        <view id="demo{{index}}" class="scroll-view-item demo-text-{{index}}">
+          <view wx:if="{{ item.code}}" class="scroll-item-code">
+            <text class="scroll-item-code-text">{{item.code}}</text>
+          </view>
+          <view class="citys-box">
+            <block wx:for="{{item.citys}}" wx:for-item="j" wx:key="id">
+              <view class="city-item" bindtap="handClickCity" data-city="{{j.text}}">
+                <text class="city-item-text">{{j.text}}</text>
+              </view>
+            </block>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+    <view class="text-list" wx:if="{{areaAry[0].code}}">
+      <block wx:for="{{areaAry}}" wx:key="code">
+        <view class="text-item" data-areaid="demo{{index}}" catchtap="handClickText">
+          <text>{{item.code}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

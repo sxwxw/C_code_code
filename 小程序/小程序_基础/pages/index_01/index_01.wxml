@@ -1,0 +1,71 @@
+ <!-- pages/index_01/index_01.wxml -->
+<!--<text>pages/index_01/index_01.wxml</text> -->
+<!-- 
+    text标签类似web中的span标签
+    view标签相当于web中的div块元素
+    checkbox标签与原来一致
+ -->
+<view class="" hover-class="none" hover-stop-propagation="false">
+    {{msg}} 
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    {{num}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    是否是人：{{blooens}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    {{person.name}}
+</view>
+<checkbox checked="{{ischecked}}" class="" value="" disabled="false"  color="">
+    
+</checkbox>
+<!-- 1.可以在花括号中加入常规表达式 -->
+<view class="" hover-class="none" hover-stop-propagation="false">
+    {{1+1}}
+</view> 
+<!-- for循环
+    1.wx:for-item="循环项的名称"
+    2.wx:for-index="循环项的索引"
+    3.wx:key="循环数组中的对象的唯一属性"   
+            ="this"此时数组为普通数组，this表示循环项
+
+-->
+<view class="" hover-class="none" hover-stop-propagation="false">
+    <view  wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+        索引：{{index}}--值：{{item.name}}
+    </view>
+</view>
+<!-- 对象循环
+    1.wx:for-item="对象的值"value
+    2.wx:for-index="对象的属性"key
+ -->
+<view class="" hover-class="none" hover-stop-propagation="false">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        对象循环
+    </view>
+    <view wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="name">
+        属性：{{key}}--值：{{value}}
+    </view>
+</view>
+<!-- block标签
+    1.占位符
+-->
+<!-- if条件渲染
+    1.wx:if="{{true/flase}}"
+    2.if
+        wx:if
+        wx:elif
+        wx:else
+    3.hidden 直接在标签内加入hidden或hidden="{{true}}"
+-->
+<view wx:if="{{true}}" class="" hover-class="none" hover-stop-propagation="false">
+    显示
+</view>
+<view wx:if="{{flase}}" class="" hover-class="none" hover-stop-propagation="false">
+    隐藏
+</view>
+<text class="" selectable="true" space="false" decode="true">
+    eee
+    &nbsp;
+</text>

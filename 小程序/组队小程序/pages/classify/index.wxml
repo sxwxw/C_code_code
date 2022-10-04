@@ -1,0 +1,15 @@
+<!-- 搜索 -->
+<Search></Search>
+<!-- 分类界面 -->
+<view class="classify">
+    <view class="classify_left">
+        <view class="left_one">开放式学科竞赛</view>
+        <view class="left_one">半开放式学科竞赛</view>
+        <view class="left_one">封闭式学科竞赛</view>
+    </view>
+    <view class="classif_right">
+        <view class="right_one">三峡大学编程赛</view>
+        <view class="right_one">三峡大学建模赛</view>
+        <view class="right_one">三峡大学生活赛</view>
+    </view>
+</view>

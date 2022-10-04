@@ -1,0 +1,46 @@
+<!--pages/index_03/index_03.wxml
+<text>pages/index_03/index_03.wxml</text>-->
+<!-- 
+    image
+        1.src 指定图片路径
+        2.mode 图片裁剪，缩放的模式
+            scaleToFill
+            aspectFit 保持纵横比,展示长边
+            aspectFill 保持纵横比，展示短边
+            withFix 宽度指定，按照纵横比缩放
+            bottom 类似background——position
+        3.image默认320*240
+ -->
+
+<!-- <image mode="withFix" src="https://i1.hdslb.com/bfs/face/0c9cacce773bba20f204949bc06933dfeb61a1d4.jpg@160w_160h_1c.jpg">
+    
+</image> -->
+
+<!-- 
+    1.轮播图外城容器 swiper
+    2.每一个轮播项 swiper-item 
+    3.swiper标签存在默认样式
+        width 100%
+        heigth 150px
+    4.swiper(width)/swiper(heigth) = 原图(width)/原图(heigth)
+ -->
+<swiper >
+    <swiper-item ><image mode="withFix" src="https://aecpm.alicdn.com/simba/img/TB183NQapLM8KJjSZFBSutJHVXa.jpg"></image></swiper-item>
+    <swiper-item ><image mode="withFix" src="https://aecpm.alicdn.com/simba/img/TB1XotJXQfb_uJkSnhJSuvdDVXa.jpg"></image></swiper-item>
+    <swiper-item ><image mode="withFix" src="https://img.alicdn.com/imgextra/i1/6000000007374/O1CN01pbkC8a24LLGHhwVeh_!!6000000007374-0-octopus.jpg"></image></swiper-item>
+</swiper>
+
+
+<!-- 
+    rich-text
+    1.nodes属性实现
+        接收标签字符串
+        接收对象数组
+
+<rich-text class="" nodes="{{html}}">
+    
+</rich-text>
+<div class="my_div">
+    <p style="color: green;">hhhh</p>
+</div> 
+-->

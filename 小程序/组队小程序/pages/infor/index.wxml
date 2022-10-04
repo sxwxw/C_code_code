@@ -1,0 +1,33 @@
+<!-- 搜索框 -->
+<Search></Search>
+<!-- 消息 -->
+<view class="infor">
+    <view class="succss_infor" catchtap="infor">
+        <view class="user_head"></view>
+        <view class="infor_text">
+            <view class="text_one">组队消息</view>
+            <view class="text_two">您已成功加入三峡大学编程赛组队</view>
+        </view>
+    </view>
+    <view class="succss_infor">
+        <view class="user_head"></view>
+        <view class="infor_text">
+            <view class="text_one">组队消息</view>
+            <view class="text_two">三峡大学编程赛组队已开始</view>
+        </view>
+    </view>
+    <view class="succss_infor">
+        <view class="user_head"></view>
+        <view class="infor_text">
+            <view class="text_one">组队消息</view>
+            <view class="text_two">三峡大学编程赛组队已结束</view>
+        </view>
+    </view>
+    <view class="succss_infor">
+        <view class="user_head"></view>
+        <view class="infor_text">
+            <view class="text_one">组队消息</view>
+            <view class="text_two">XXX向你发起组队请求</view>
+        </view>
+    </view>
+</view>

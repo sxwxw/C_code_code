@@ -1,0 +1,40 @@
+<view class="page" data-weui-theme="{{theme}}">
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">三峡大学数学建模校赛</view>
+            <view class="foncuUser">
+                <!-- 头像，昵称 -->
+                <navigator url="/pages/userIntro/index" open-type="navigate">
+                    <view class="userImage"></view>
+                </navigator>
+                <view class="userName">三峡大学</view>
+            </view>
+            <!-- 组队内容 -->
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="page__bd page__bd_spacing">
+    <a class="weui-btn weui-btn_default" bindtap="openIOS1">加入组队</a>>
+</view>
+<view class="fadeIn" wx:if="{{iosDialog1}}">
+    <view class="weui-mask"></view>
+    <view class="weui-dialog">
+        <view class="weui-dialog__hd"><strong class="weui-dialog__title">是否加入组队</strong></view>
+        <view class="weui-dialog__bd">弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内</view>
+        <view class="weui-dialog__ft">
+            <a class="weui-dialog__btn weui-dialog__btn_default" bindtap="close">取消</a>
+            <a class="weui-dialog__btn weui-dialog__btn_primary" bindtap="close">确认</a>
+        </view>
+    </view>
+</view>
+

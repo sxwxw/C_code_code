@@ -1,0 +1,104 @@
+<view>
+    <!-- 搜索框 -->
+    <Search></Search>
+    <!-- 轮播图 -->
+    <view class="swiperRawp">
+        <swiper class="swiperCotent" indicator-dots="true" indicator-active-color="#fff" previous-margin="10rpx" next-margin="10rpx" circular="true" interval="3000" autoplay="true" duration="1500"> 
+            <swiper-item class="swiperItem" wx:for="{{swiperList}}" wx:key="id">
+                <navigator>
+                    <image src="{{item.picture}}"></image>
+                </navigator>
+            </swiper-item>
+        </swiper>
+    </view>
+    <!-- 分类 -->
+    <view class="topNavRawp">
+        <view class="topNavcont">
+            <view class="navIcon">活动</view>
+            <view class="navIcon">热门</view>
+            <view class="navIcon">组队</view>
+            <view class="navIcon">设置</view>
+        </view>
+    </view>
+    <!-- 看点 --> 
+    <view class="watchFocuRawp">
+        <view class="topTabs">
+            <view class="topText">推荐</view>
+            <view class="iconfont icon-shuaxin"> 刷新</view>
+        </view>
+        <view class="foncu">
+            <navigator url="/pages/formContent/index">
+               <view class="foncuText">
+                    <view class="foncuUser">
+                        <!-- 头像，昵称 -->
+                        <navigator url="/pages/userIntro/index" open-type="navigate" hover-class="one" catchtap="funNull">
+                            <view class="userImage"></view>
+                        </navigator>
+                        <view class="userName">三峡大学</view>
+                        <view class="dete" bindtap="dele" data-id="cha">✖</view>   
+                    </view>
+                    <view class="foncuImage">
+                        <view class="oneImage">
+                            <image src="http://image5.suning.cn/uimg/b2c/newcatentries/0000000000-000000000160455569_1_400x400.jpg"></image>
+                        </view>
+                        <view class="onetext">
+                            <view class="headtext">三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛</view>
+                            <view class="bodytext">
+                                <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简介：三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛</text> 
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="xian"></view> 
+            </navigator>
+            <navigator url="/pages/formContent/index">
+                <view class="foncuText">
+                     <view class="foncuUser">
+                         <!-- 头像，昵称 -->
+                         <navigator url="/pages/userIntro/index" open-type="navigate" hover-class="one" catchtap="funNull">
+                             <view class="userImage"></view>
+                         </navigator>
+                         <view class="userName">三峡大学</view>
+                         <view class="dete">✖</view>   
+                     </view>
+                     <view class="foncuImage">
+                         <view class="oneImage">
+                             <image src="http://image5.suning.cn/uimg/b2c/newcatentries/0000000000-000000000160455569_1_400x400.jpg"></image>
+                         </view>
+                         <view class="onetext">
+                             <view class="headtext">三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛</view>
+                             <view class="bodytext">
+                                 <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简介：三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛</text> 
+                             </view>
+                         </view>
+                     </view>
+                 </view>
+                 <view class="xian"></view> 
+            </navigator>
+            <navigator url="/pages/formContent/index">
+                <view class="foncuText">
+                     <view class="foncuUser">
+                         <!-- 头像，昵称 -->
+                         <navigator url="/pages/userIntro/index" open-type="navigate" hover-class="one" catchtap="funNull">
+                             <view class="userImage"></view>
+                         </navigator>
+                         <view class="userName">三峡大学</view>
+                         <view class="dete">✖</view>   
+                     </view>
+                     <view class="foncuImage">
+                         <view class="oneImage">
+                             <image src="http://image5.suning.cn/uimg/b2c/newcatentries/0000000000-000000000160455569_1_400x400.jpg"></image>
+                         </view>
+                         <view class="onetext">
+                             <view class="headtext">三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛</view>
+                             <view class="bodytext">
+                                 <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简介：三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛三峡大学第二十九届计算机新生编程赛三峡大学第二十九计算机新生编程赛</text> 
+                             </view>
+                         </view>
+                     </view>
+                 </view>
+                 <view class="xian"></view> 
+            </navigator>
+        </view>
+    </view>
+</view>

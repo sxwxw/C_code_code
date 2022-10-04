@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-macks": "/components/macks/macks"
+  },
+  "navigationStyle": "default"
+}

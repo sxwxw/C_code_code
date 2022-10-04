@@ -1,0 +1,93 @@
+/* components/macks/macks.wxss */
+.mask {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  z-index: 3;
+  background-color: rgba(30, 30, 30, .4);
+  transition: all 500ms;
+}
+
+.aos {
+  top: 0;
+  transition: all 500ms;
+}
+
+.area-title {
+  position: relative;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #ffffff;
+  text-indent: 20rpx;
+}
+
+.area-title::before {
+  position: absolute;
+  content: '';
+  width: 6rpx;
+  height: 30rpx;
+  top: 25rpx;
+  left: 0;
+  background-color: royalblue;
+}
+
+.scroll-box {
+  position: relative;
+  height: 800rpx;
+  background-color: #ffffff;
+}
+
+.text-list {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 40rpx;
+  height: 600rpx;
+  margin: auto;
+  right: 20rpx;
+  top: 0;
+  bottom: 0;
+  border: 2rpx solid #efefef;
+  border-radius: 20rpx;
+  color: royalblue;
+  background-color: #ffffff;
+}
+
+.text-item {
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 24rpx;
+}
+
+.scroll-componment {
+  height: 800rpx;
+}
+
+.scroll-item-code {
+  height: 40rpx;
+  line-height: 40rpx;
+  border-top: 2rpx solid #dadada;
+  font-size: 30rpx;
+  text-indent: 20rpx;
+  color: #666666;
+  background-color: #eaeaea;
+}
+
+.city-item {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  text-indent: 20rpx;
+  border-bottom: 2rpx solid #dadada;
+}
+
+.city-item:last-of-type {
+  border-bottom: none;
+}

@@ -1,0 +1,292 @@
+.head {
+  padding: 10rpx 20rpx;
+  margin-top: 50rpx;
+}
+.head h1 {
+  font-size: 60rpx;
+  font-weight: bold;
+}
+.head .head_tip {
+  font-size: 30rpx;
+  color: #aaa;
+}
+.content {
+  width: 100%;
+  margin-top: 100rpx;
+}
+.content .pro {
+  width: 100%;
+  height: 145rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.content .pro .pro_cho {
+  line-height: 100rpx;
+  border-bottom: 1px solid #f5eeee;
+}
+.content .pro .pro_cho .cho_one,
+.content .pro .pro_cho .cho_two {
+  float: left;
+}
+.content .pro .pro_cho .cho_one span {
+  color: red;
+  margin-right: 10rpx;
+}
+.content .pro .pro_cho .cho_two {
+  margin-left: 40rpx;
+}
+.content .pro .pro_cho .cho_three {
+  float: right;
+}
+.content .pro .pro_tip {
+  position: absolute;
+  bottom: 0;
+  font-size: 25rpx;
+  color: orange;
+}
+.content .cate {
+  width: 100%;
+  height: 120rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.content .cate .cate_cho {
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #f5eeee;
+}
+.content .cate .cate_cho .cho_one,
+.content .cate .cate_cho .cho_two {
+  float: left;
+}
+.content .cate .cate_cho .cho_two {
+  margin-left: 40rpx;
+}
+.content .cate .cate_cho .cho_one span {
+  color: red;
+  margin-right: 10rpx;
+}
+.content .cate .cate_cho .cho_three {
+  float: right;
+}
+.content .hide_cont .fir_subj {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.content .hide_cont .fir_subj .fir_cho {
+  display: flex;
+  align-items: center;
+}
+.content .hide_cont .fir_subj .fir_cho .cho_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35rpx;
+}
+.content .hide_cont .fir_subj .fir_cho .cho_one span {
+  color: red;
+  margin-right: 10rpx;
+}
+.content .hide_cont .fir_subj .fir_cho .cho_two {
+  display: flex;
+  margin-left: 40rpx;
+}
+.content .hide_cont .fir_subj .fir_cho .cho_two .btn_one {
+  width: 240rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border: 1px solid #aaa;
+}
+.content .hide_cont .fir_subj .fir_cho .cho_two .btn_two {
+  width: 240rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border: 1px solid #aaa;
+}
+.content .hide_cont .sec_subj {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  margin-top: 50rpx;
+}
+.content .hide_cont .sec_subj .sec_cho {
+  display: flex;
+}
+.content .hide_cont .sec_subj .sec_cho .cho_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35rpx;
+}
+.content .hide_cont .sec_subj .sec_cho .cho_one span {
+  color: red;
+  margin-right: 10rpx;
+}
+.content .hide_cont .sec_subj .sec_cho .cho_two {
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .hide_cont .sec_subj .sec_cho .cho_two .btn_ones {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.content .hide_cont .sec_subj .sec_cho .cho_two .btn_ones .btn_one {
+  width: 240rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border: 1px solid #aaa;
+}
+.content .hide_cont .sec_subj .sec_cho .cho_two .btn_ones .btn_two {
+  width: 240rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border: 1px solid #aaa;
+}
+.content .hide_cont .sec_subj .sec_cho .cho_two .btn_twos {
+  display: flex;
+}
+.content .hide_cont .sec_subj .sec_cho .cho_two .btn_twos .btn_one {
+  width: 240rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border: 1px solid #aaa;
+}
+.content .hide_cont .sec_subj .sec_cho .cho_two .btn_twos .btn_two {
+  width: 240rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border: 1px solid #aaa;
+}
+.content .hide_cont .fil {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  margin-top: 40rpx;
+}
+.content .hide_cont .fil .fil_cont .grade {
+  display: flex;
+}
+.content .hide_cont .fil .fil_cont .grade .grade_one {
+  font-size: 35rpx;
+}
+.content .hide_cont .fil .fil_cont .grade .grade_one span {
+  color: red;
+  margin-right: 10rpx;
+}
+.content .hide_cont .fil .fil_cont .grade .grade_two {
+  position: relative;
+  display: flex;
+}
+.content .hide_cont .fil .fil_cont .grade .grade_two input {
+  width: 460rpx;
+  margin-left: 40rpx;
+  font-size: 35rpx;
+}
+.content .hide_cont .fil .fil_cont .grade .grade_two span {
+  position: absolute;
+  right: -40rpx;
+}
+.content .hide_cont .fil .fil_cont .rank {
+  display: flex;
+  margin-top: 20rpx;
+}
+.content .hide_cont .fil .fil_cont .rank .rank_one {
+  font-size: 35rpx;
+}
+.content .hide_cont .fil .fil_cont .rank .rank_one span {
+  color: red;
+  margin-right: 10rpx;
+}
+.content .hide_cont .fil .fil_cont .rank .rank_two {
+  position: relative;
+  display: flex;
+}
+.content .hide_cont .fil .fil_cont .rank .rank_two input {
+  width: 460rpx;
+  margin-left: 40rpx;
+  font-size: 35rpx;
+}
+.content .hide_cont .fil .fil_cont .rank .rank_two span {
+  position: absolute;
+  right: -40rpx;
+}
+.btn {
+  margin-top: 50rpx;
+  margin-bottom: 100rpx;
+}
+.btn .btn_text {
+  width: 100%;
+  font-size: 20rpx;
+  text-align: center;
+}
+.btn .btn_cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rpx;
+}
+.btn .btn_cont navigator {
+  width: 90%;
+  height: 80rpx;
+  background-color: pink;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 10rpx;
+}
+.input-item {
+  display: flex;
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  align-items: center;
+  padding: 0 10rpx;
+  margin: 0 auto;
+  border-bottom: 2rpx solid #efefef;
+  font-size: 30rpx;
+}
+.input-item .input-label {
+  width: 160rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+}
+.input-item .input-label.defaule-text::before {
+  content: '*';
+  color: red;
+  margin-right: 10rpx;
+}
+.input-item .input-text {
+  flex: 1;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.input-item .input-last-text {
+  width: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: right;
+  color: #cacaca;
+}

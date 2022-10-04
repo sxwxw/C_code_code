@@ -1,0 +1,66 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">发布组队</h2>
+        </view>
+		<view class="weui-form__control-area">
+			<view class="weui-cells__group weui-cells__group_form">
+				<view class="weui-cells__title">填写信息</view>
+				<view class="weui-cells weui-cells_form">
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd"><label class="weui-label">组队名称</label></view>
+						<view class="weui-cell__bd">
+							<input class="weui-input" placeholder="填写组队名称" placeholder-class="weui-input__placeholder" />
+						</view>
+					</view>
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd">							
+                            <label class="weui-label">时间</label>
+                        </view>
+						<view class="weui-cell__bd">
+							<input class="weui-input" placeholder="填写开始及截止时间" placeholder-class="weui-input__placeholder" />
+						</view>
+					</view>
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd">							
+                            <label class="weui-label">简介</label>
+                        </view>
+					</view>
+                    <view class="weui-cells__group weui-cells__group_form">
+                        <view class="weui-cells weui-cells_form">
+                            <view class="weui-cell">
+                                <view class="weui-cell__bd">
+                                    <textarea class="weui-textarea" placeholder="请描述你的组队请求" placeholder-class="weui-input__placeholder" rows="3"></textarea>
+                                    <view class="weui-textarea-counter"><span>0</span>/200</view>
+                                </view>
+                            </view>
+                        </view>
+                      </view>
+				</view>
+			</view>
+		</view>
+        <!-- 确定按钮 -->
+		<view class="page__bd page__bd_spacing">
+            <a class="weui-btn weui-btn_default" bindtap="openIOS1">确认</a>>
+        </view>
+        <view class="fadeIn" wx:if="{{iosDialog1}}">
+            <view class="weui-mask"></view>
+            <view class="weui-dialog">
+                <view class="weui-dialog__hd"><strong class="weui-dialog__title">是否发布组队请求</strong></view>
+                <view class="weui-dialog__bd">弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内</view>
+                <view class="weui-dialog__ft">
+                    <a class="weui-dialog__btn weui-dialog__btn_default" bindtap="close">取消</a>
+                    <a class="weui-dialog__btn weui-dialog__btn_primary" bindtap="close">确认</a>
+                </view>
+            </view>
+        </view>
+		<view class="weui-form__extra-area">
+			<view class="weui-footer">
+				<view class="weui-footer__links">
+					<a href="javascript:" class="weui-footer__link">底部链接文本</a>
+				</view>
+				<view class="weui-footer__text">Copyright © 2008-2019 weui.io</view>
+			</view>
+		</view>
+	</view>
+</view>

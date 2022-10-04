@@ -1,0 +1,13 @@
+<!-- 
+    1.父组件向子组件通过标签的属性传递数据
+        子组件接收数据
+        把该数据当成子组件中的data使用即可
+    2.父组件接收子组件的数据通过事件绑定
+        在子组件的标签上定义一个自定义的事件
+ -->
+<Tab tabs="{{tabs}}" bindfdz="fszhanshu">
+    <block wx:if="{{tabs[0].isActive}}">0</block>
+    <block wx:elif="{{tabs[1].isActive}}">1</block>
+    <block wx:elif="{{tabs[2].isActive}}">2</block>
+    <block wx:else>3</block>
+</Tab>

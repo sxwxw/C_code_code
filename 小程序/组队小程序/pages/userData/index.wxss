@@ -1,0 +1,31 @@
+.topHead {
+  width: 100%;
+  height: 300rpx;
+  background-color: #2566c2;
+}
+.topHead .leftHead {
+  padding-top: 20rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.topHead .leftHead .headText .headName {
+  font-size: 30rpx;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+.topHead .leftHead .headText .headScool {
+  font-size: 20rpx;
+  color: #aaa;
+  font-weight: 600;
+}
+.topHead .leftHead .headImg {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  background-color: cadetblue;
+  margin: 0 auto;
+  margin-bottom: 10rpx;
+}

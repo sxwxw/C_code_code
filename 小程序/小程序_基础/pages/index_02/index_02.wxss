@@ -1,0 +1,4 @@
+/* pages/index_02/index_02.wxss */
+view {
+  color: red;
+}

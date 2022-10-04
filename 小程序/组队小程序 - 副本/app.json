@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classify/index",
+    "pages/add/index",
+    "pages/infor/index",
+    "pages/user/index",
+    "pages/search/index" 
+  ], 
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2373e6",
+    "navigationBarTitleText": "组队小程序",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#eeeeee"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor" :"#eeeeee",
+    "list":[
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"icons/index-ico-1.png",
+      "selectedIconPath":"icons/index-ico.png"
+      },
+      {
+        "pagePath": "pages/classify/index",
+        "text": "分类",
+        "iconPath":"icons/classify-ico-1.png",
+      "selectedIconPath":"icons/classify-ico.png"
+      },
+      {
+        "pagePath": "pages/add/index",
+         "text": "发布",
+         "iconPath":"icons/add-ico-1.png",
+      "selectedIconPath":"icons/add-ico.png"
+      },
+      {
+        "pagePath": "pages/infor/index",
+        "text": "消息",
+        "iconPath":"icons/info-ico-1.png",
+      "selectedIconPath":"icons/info-ico.png"
+       },
+      {
+        "pagePath": "pages/user/index",
+        "text": "用户",
+        "iconPath":"icons/user-ico-1.png",
+      "selectedIconPath":"icons/user-ico.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

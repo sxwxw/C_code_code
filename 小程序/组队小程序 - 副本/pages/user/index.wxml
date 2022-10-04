@@ -1,0 +1,72 @@
+<view class="topHead">
+    <view class="leftHead">
+        <view class="headImg"></view>
+        <view class="headText">
+            <view class="headName">时野夏</view>
+            <view class="headScool">湖北省宜昌市三峡大学</view>
+        </view>
+    </view>
+    <view class="rightHead"></view>
+</view>
+<view class="topTab">
+    <view class="user">
+        <view class="iconfont icon-iconcopy"></view>
+        <view class="text">个人信息</view>
+    </view>
+    <view class="collect">
+        <view class="iconfont icon-shoucang"></view>
+        <view class="text">收藏</view>
+    </view>
+    <view class="atten">
+        <view class="iconfont icon-guanzhu"></view>
+        <view class="text">关注</view>
+    </view>
+    <view class="srt">
+        <view class="iconfont icon-shezhi"></view>
+        <view class="text">设置</view>
+    </view>
+</view>
+<view class="myForm">
+    <view class="topText">
+        <view class="iconfont icon-zudui"></view>
+        <view class="formcont">我的组队</view>
+        <view class="rightroow iconfont icon-you"></view>    
+    </view>
+    <view class="topText">
+        <view class="iconfont icon-zudui"></view>
+        <view class="formcont">已报名的组队</view>
+        <view class="rightroow iconfont icon-you"></view>    
+    </view>
+    <view class="topText">
+        <view class="iconfont icon-yikaishi"></view>
+        <view class="formcont">已开始组队</view>
+        <view class="rightroow iconfont icon-you"></view>    
+    </view>
+    <view class="topText">
+        <view class="iconfont icon-weikaishi1"></view>
+        <view class="formcont">未开始组队</view>
+        <view class="rightroow iconfont icon-you"></view>    
+    </view>
+    <view class="topText">
+        <view class="iconfont icon-yinsi"></view>
+        <view class="formcont">隐私政策</view>
+        <view class="rightroow iconfont icon-you"></view>    
+    </view>
+
+    <view class="topText">
+        <view class="iconfont icon-shensu"></view>
+        <view class="formcont">申诉</view>
+        <view class="rightroow iconfont icon-you"></view>    
+    </view>
+    <view class="topText">
+        <view class="iconfont icon-banbenhao"></view>
+        <view class="formcont">版本号</view>
+        <view class="rightroow iconfont icon-you"></view>    
+    </view>
+    <view class="topText">
+        <view class="iconfont icon-tuichu2"></view>
+        <view class="formcont">退出登录</view>
+        <view class="rightroow iconfont icon-you"></view>    
+    </view>
+
+</view>

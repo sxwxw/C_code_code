@@ -1,0 +1,5 @@
+<view class="search">
+    <view class="iconfont icon-search1"></view>
+    <input type="text" placeholder="请输入内容"/>
+    <view class="text">搜索</view>
+</view>

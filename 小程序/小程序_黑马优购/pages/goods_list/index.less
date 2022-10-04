@@ -1,0 +1,33 @@
+.first_tab {
+    .goods_item {
+        display: flex;
+        border-bottom: 3rpx solid #aaa;
+        .good_left_image {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            image {
+                width: 70%; 
+            }
+        }
+        .good_right_info {
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .goods_left_name {
+                display: -webkit-box;
+                overflow: hidden;
+                // 从上向下垂直排列子元素。
+                -webkit-box-orient: vertical;
+                // -webkit-line-clamp 可以把 块容器 中的内容限制为指定的行数.
+                -webkit-line-clamp: 2;
+            }
+            .goods_left_price{
+                color: var(--themeColor);
+                font-size: 32rpx;
+            }
+        }
+    }
+}

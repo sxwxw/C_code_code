@@ -1,0 +1,56 @@
+<view class="topHead">
+    <view class="leftHead">
+        <view class="headImg"></view>
+        <view class="headText">
+            <view class="headName">时野夏</view>
+            <view class="headScool">湖北省宜昌市三峡大学</view>
+        </view>
+    </view>
+    <view class="rightHead"></view>
+</view>
+<view class="topTab">
+    <navigator url="/pages/userData/index">
+        <view class="user">
+            <view class="iconfont icon-iconcopy"></view>
+            <view class="text">个人信息</view>
+        </view>
+    </navigator>
+    <navigator url="/pages/allForm/index">
+        <view class="srt">
+            <view class="iconfont icon-neirong"></view>
+            <view class="text">组队内容</view>
+        </view>
+    </navigator>
+    <view class="collect">
+        <view class="iconfont icon-shoucang"></view>
+        <view class="text">收藏</view>
+    </view>
+    <view class="atten">
+        <view class="iconfont icon-guanzhu"></view>
+        <view class="text">关注</view>
+    </view>
+</view>
+<view class="weui-panel weui-panel_access">
+    <view class="weui-panel__bd">
+        <navigator url="/pages/formContent/index">
+            <view class="weui-media-box weui-media-box_text">
+                <h4 class="weui-media-box__title">三峡大学编程赛</h4>
+                <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+            </view>
+        </navigator>
+        <navigator url="/pages/formContent/index">
+            <view class="weui-media-box weui-media-box_text">
+                <h4 class="weui-media-box__title">三峡大学编程赛</h4>
+                <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+            </view>
+        </navigator>
+    </view>
+    <navigator url="/pages/allForm/index">
+        <view class="weui-panel__ft">
+            <a class="weui-cell weui-cell_active weui-cell_access weui-cell_link">
+                <view class="weui-cell__bd">查看更多</view>
+                <text class="weui-cell__ft"></text>
+            </a>
+        </view>
+    </navigator>
+</view>

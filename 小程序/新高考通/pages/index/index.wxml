@@ -1,0 +1,81 @@
+<view class="head"></view>
+<view class="body">
+    <view class="body_cont">
+        <view class="text">
+            <view class="text_cont">
+                <view class="text_one">本科批</view>
+                <view class="text_two">
+                    <navigator>
+                        <image src="../../icons/modi2.png"></image>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+        <view class="circle">
+            <navigator>
+                <view class="circle_cont">
+                    <view class="grade">
+                        <view class="grade_nums">678</view>
+                        <view class="grade_text">分</view>
+                    </view>
+                    <view class="rank">排名123456名</view>
+                    <view class="mess">
+                        <view class="mess_cont">
+                            <view class="prov">湖北</view>
+                            <view class="link">|</view>
+                            <view class="subj">物+生化</view>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+        <view class="select">
+            <view class="select_cont">
+                <view class="select_one">
+                    <navigator>
+                        <view class="select_num">11</view>
+                        <view class="select_text">可选专业组</view>
+                    </navigator>
+                </view>
+                <view class="select_two">
+                    <navigator>
+                        <view class="select_num">11</view>
+                        <view class="select_text">稳妥专业组</view>
+                    </navigator>
+                </view>
+                <view class="select_three">
+                    <navigator>
+                        <view class="select_num">11</view>
+                        <view class="select_text">保底专业组</view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+        <view class="two_choce">
+            <view class="choce_cont">
+                <view class="choce_one">
+                    <navigator>
+                        <view class="one_img">
+                            <image src="../../icons/smart.png"></image>
+                        </view>
+                        <view class="one_text">
+                            <view class="text_one">智能填报志愿</view>
+                            <view class="text_two">能上哪些学校</view>
+                        </view>
+                    </navigator>
+                </view>
+                <view class="choce_two">
+                    <navigator>
+                        <view class="two_img">
+                            <image src="../../icons/forecast.png"></image>
+                        </view>
+                        <view class="two_text">
+                            <view class="text_one">测录取概率</view>
+                            <view class="text_two">能上目标院校吗</view>
+                        </view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

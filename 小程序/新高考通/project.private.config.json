@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "咨询",
+          "pathName": "pages/consult/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "用户",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/area/area",
+          "pathName": "pages/area/area",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "选择",
+          "pathName": "pages/choice/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

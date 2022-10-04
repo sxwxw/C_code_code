@@ -1,0 +1,33 @@
+<view class="topHead">
+    <view class="leftHead">
+        <view class="headImg"></view>
+        <view class="headText">
+            <view class="headName">时野夏</view>
+            <view class="headScool">湖北省宜昌市三峡大学</view>
+        </view>
+    </view>
+    <view class="rightHead"></view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+        <view class="weui-cell__bd">昵称</view>
+        <view class="weui-cell__ft">时野夏</view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">性别</view>
+        <view class="weui-cell__ft">男</view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">年龄</view>
+        <view class="weui-cell__ft">18</view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">学校</view>
+        <view class="weui-cell__ft">三峡大学</view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">简介</view>
+        <view class="weui-cell__ft">持之以恒方能百战百胜</view>
+    </view>
+</view>
+        

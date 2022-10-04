@@ -1,0 +1,96 @@
+<view class="head">
+    <h1>模拟高考志愿填报</h1>
+    <view class="head_tip">输入成绩信息，为你精准推荐</view>
+</view>
+<view class="content">
+    <view class="pro">
+        <view class="pro_cho" bindtap="handClickArea">
+            <view class="cho_one"><span>*</span>高考省份</view>
+            <view class="cho_two">{{cityText}}</view>
+            <view class="cho_three iconfont icon-iconfontyoujiantou"></view>
+        </view>
+        <view class="pro_tip">高考地区一经确认不可更改</view>
+    </view>
+    <view class="cate">
+        <view class="cate_cho" bindtap="showCate">
+            <view class="cho_one"><span>*</span>招生类别</view>
+            <view class="cho_two">{{typeText}}</view>
+            <view class="cho_three iconfont icon-iconfontyoujiantou"></view>
+        </view>
+    </view>
+    <view class="hide_cont" wx:if="{{cityStatus}}">
+        <view class="fir_subj">
+            <view class="fir_cho">
+                <view class="cho_one">
+                    <view class="text_one"><span>*</span>首选科目</view>
+                    <view class="text_two">(2选1)</view>
+                </view>
+                <view class="cho_two">
+                    <view class="btn_one">物理</view>
+                    <view class="btn_two">化学</view>
+                </view>
+            </view>
+        </view>
+        <view class="sec_subj">
+            <view class="sec_cho">
+                <view class="cho_one">
+                    <view class="text_one"><span>*</span>首选科目</view>
+                    <view class="text_two">(4选1)</view>
+                </view>
+                <view class="cho_two">
+                    <view class="btn_ones">
+                        <view class="btn_one">物理</view>
+                        <view class="btn_two">化学</view>
+                    </view>
+                    <view class="btn_twos">
+                        <view class="btn_one">物理</view>
+                        <view class="btn_two">化学</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="fil">
+            <view class="fil_cont">
+                <view class="grade">
+                    <view class="grade_one"><span>*</span>高考分数</view>
+                    <view class="grade_two">
+                        <input type="text" placeholder="请输入高考分数" />
+                        <span>分</span>
+                    </view>
+                </view>
+                <view class="rank">
+                    <view class="rank_one"><span>*</span>高考排名</view>
+                    <view class="rank_two">
+                        <input type="text" placeholder="请输入高考排名" />
+                        <span>名</span>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="btn">
+    <view class="btn_text">
+        依据历年的数据进行推荐，最新招生计划将在6月份更新，敬请关注
+    </view>
+    <view class="btn_cont">
+        <navigator>
+            确定
+        </navigator>
+    </view>
+</view>
+<view class="half_scree">
+
+</view>
+
+<view class="input-item">
+    <text class="input-label defaule-text">高考分数</text>
+    <input class="input-text" type="number" placeholder="请填写分数" />
+    <text class="input-last-text">名</text>
+</view>
+
+
+<w-macks areas="{{areaAry}}" show-mack="{{showMack}}" bindhandClickCitpy="handClickCitpy"
+    bindhandClickHidden="handClickHidden"></w-macks>
+<w-macks areas="{{types}}" show-mack="{{showTypesMack}}" bindhandClickCitpy="handClickTypes"
+    bindhandClickHidden="handClickTypesHidden"></w-macks>

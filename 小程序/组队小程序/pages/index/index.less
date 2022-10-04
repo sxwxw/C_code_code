@@ -1,0 +1,147 @@
+.swiperRawp {
+    .swiperCotent {
+        width: 750rpx;
+        height: 340rpx;
+        .swiperItem {
+            height: 100%;
+            navigator {
+                height: 100%;
+                image {
+                    height: 100%;
+                    // height: 300rpx;
+                }
+            }
+        }
+    }
+}
+.topNavRawp {
+    width: 100%;
+    height:100rpx;
+    border-bottom: 1px solid #aaa;
+    background-color: #fff;
+    margin-top: 15rpx;
+    .topNavcont {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+        .navIcon {
+            border: 1px solid black;
+            padding: 10rpx;
+            border-radius: 20%;
+            margin-top: 20rpx;
+        }
+    }
+}
+.watchFocuRawp {
+    width: 100%;
+    margin-top: 20rpx;
+    background-color: #fff;
+    .topTabs {
+        padding: 10rpx 20rpx;
+        height: 40rpx;
+        border-bottom: 1rpx solid rgb(216, 211, 211);
+      .topText {
+            float: left;
+            font-size: 30rpx;
+            color: rgb(0, 0, 0);
+        }
+        .iconfont {
+            float: right;
+            font-size: 30rpx;
+            color: #aaa;
+        }  
+    }
+    .foncu {
+        width: 100%;
+        height: 400rpx;
+        navigator {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            border-bottom: 1rpx solid rgb(223, 219, 219);
+            .foncuText {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                .foncuUser {
+                    width: 100%;
+                    height: 100rpx;
+                    padding: 20rpx;
+                    box-sizing: border-box;
+                    text-align: center;
+                    border-bottom: 1rpx solid #aaa;
+                    navigator {
+                        float: left;
+                        width: 70rpx;
+                        height: 70rpx;
+                        border: 0;
+                        .userImage {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 50%;
+                            background-color: aquamarine;
+                        }
+                    }
+                    .userName {
+                        margin-top: 12rpx;
+                        margin-left: 20rpx;
+                        float: left;
+                    }
+                    .dete {
+                        float: right;
+                    } 
+                }
+                .foncuImage {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 300rpx;
+                    box-sizing: border-box;
+                    padding: 20rpx 20rpx;
+                    .oneImage {
+                        width: 40%;
+                        height: 240rpx;
+                        image {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .onetext {
+                        width: 50%;
+                        height: 200rpx;
+                        .headtext {
+                            display: -webkit-box;
+                            width: 100%;
+                            height: 80rpx;
+                            font-size: 25rpx;
+                            font-weight: 600;
+                            color: #000;
+                            margin-bottom: 10rpx;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;            /*设置p元素最大4行，父元素需填写宽度才明显*/
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                        }
+                        .bodytext {
+                            width: 100%;
+                            height: 130rpx;
+                            text {
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;
+                                -webkit-line-clamp: 4;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                                font-size: 25rpx;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 点击隐藏增添类
+.none {
+    display: none;
+}

@@ -1,0 +1,77 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "用户中心",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "搜索页面",
+          "pathName": "pages/search/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "分类",
+          "pathName": "pages/classify/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "消息",
+          "pathName": "pages/infor/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "用户公共界面",
+          "pathName": "pages/userIntro/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "文章内容",
+          "pathName": "pages/formContent/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "用户资料",
+          "pathName": "pages/userData/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "发布",
+          "pathName": "pages/add/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "消息列表",
+          "pathName": "pages/inforCont/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/choice/index",
+    "pages/user/index",
+    "pages/consult/index",
+    "pages/index/index",
+    "pages/area/area"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "新高考通",
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1cbbb4",
+    "backgroundColor": "#fafafa",
+    "borderStyle": "black",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-hover.png"
+      },
+      {
+        "pagePath": "pages/consult/index",
+        "text": "咨询",
+        "iconPath": "icons/consult.png",
+        "selectedIconPath": "icons/consult-hover.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "用户",
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user-hover .png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

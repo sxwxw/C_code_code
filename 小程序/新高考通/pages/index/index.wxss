@@ -1,0 +1,281 @@
+.head {
+  width: 100%;
+  height: 200rpx;
+  background-color: #33c771;
+  z-index: 99;
+}
+.body {
+  width: 100%;
+  height: 900rpx;
+  box-sizing: border-box;
+}
+.body .body_cont {
+  height: 900rpx;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 20rpx;
+}
+.body .body_cont .text {
+  width: 100%;
+  height: 100rpx;
+  align-items: center;
+}
+.body .body_cont .text .text_cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.body .body_cont .text .text_cont .text_one {
+  width: 45%;
+  height: 100rpx;
+  font-size: 40rpx;
+  color: #aaa;
+  line-height: 100rpx;
+}
+.body .body_cont .text .text_cont .text_two {
+  width: 45%;
+  height: 100rpx;
+  font-size: 20rpx;
+  color: #aaa;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.body .body_cont .text .text_cont .text_two navigator {
+  width: 80rpx;
+  height: 80rpx;
+  border: 1rpx solid #aaa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .body_cont .text .text_cont .text_two navigator image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.body .body_cont .circle {
+  width: 400rpx;
+  height: 400rpx;
+  background-color: blanchedalmond;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .body_cont .circle navigator {
+  width: 85%;
+  height: 85%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.body .body_cont .circle navigator .circle_cont .grade {
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20rpx;
+}
+.body .body_cont .circle navigator .circle_cont .grade .grade_nums {
+  font-size: 100rpx;
+}
+.body .body_cont .circle navigator .circle_cont .grade .grade_text {
+  font-size: 35rpx;
+  margin-left: 10rpx;
+}
+.body .body_cont .circle navigator .circle_cont .rank {
+  width: 100%;
+  height: 40rpx;
+  text-align: center;
+  margin-bottom: 10rpx;
+  color: #CDCDCD;
+  font-size: 35rpx;
+}
+.body .body_cont .circle navigator .circle_cont .mess {
+  width: 100%;
+  height: 40rpx;
+  margin-top: 10rpx;
+  color: black;
+  font-weight: bold;
+}
+.body .body_cont .circle navigator .circle_cont .mess .mess_cont {
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.body .body_cont .circle navigator .circle_cont .mess .mess_cont .link {
+  margin: 0 10rpx;
+}
+.body .body_cont .select {
+  width: 100%;
+  height: 200rpx;
+  position: absolute;
+  top: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .body_cont .select .select_cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.body .body_cont .select .select_cont .select_one {
+  flex: 1;
+  border-right: 1rpx solid #EEEEEE;
+}
+.body .body_cont .select .select_cont .select_one navigator {
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body .body_cont .select .select_cont .select_one navigator .select_num {
+  font-size: 50rpx;
+  color: #F5A92A;
+}
+.body .body_cont .select .select_cont .select_one navigator .select_text {
+  font-size: 30rpx;
+  color: #777777;
+}
+.body .body_cont .select .select_cont .select_two {
+  flex: 1;
+  border-right: 1rpx solid #EEEEEE;
+}
+.body .body_cont .select .select_cont .select_two navigator {
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body .body_cont .select .select_cont .select_two navigator .select_num {
+  font-size: 50rpx;
+  color: #45B2F4;
+}
+.body .body_cont .select .select_cont .select_two navigator .select_text {
+  font-size: 30rpx;
+  color: #777777;
+}
+.body .body_cont .select .select_cont .select_three {
+  flex: 1;
+}
+.body .body_cont .select .select_cont .select_three navigator {
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body .body_cont .select .select_cont .select_three navigator .select_num {
+  font-size: 50rpx;
+  color: #32C771;
+}
+.body .body_cont .select .select_cont .select_three navigator .select_text {
+  font-size: 30rpx;
+  color: #777777;
+}
+.body .body_cont .two_choce {
+  width: 100%;
+  height: 200rpx;
+  position: absolute;
+  top: 80%;
+}
+.body .body_cont .two_choce .choce_cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.body .body_cont .two_choce .choce_cont .choce_one {
+  width: 45%;
+}
+.body .body_cont .two_choce .choce_cont .choce_one navigator {
+  width: 100%;
+  height: 150rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #32C871;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+}
+.body .body_cont .two_choce .choce_cont .choce_one navigator .one_img {
+  width: 100rpx;
+  height: 100rpx;
+}
+.body .body_cont .two_choce .choce_cont .choce_one navigator .one_img image {
+  width: 100%;
+  height: 100%;
+}
+.body .body_cont .two_choce .choce_cont .choce_one navigator .one_text {
+  width: 210rpx;
+  height: 150rpx;
+  box-sizing: border-box;
+  padding-top: 35rpx;
+  letter-spacing: 3rpx;
+  margin-left: 10rpx;
+}
+.body .body_cont .two_choce .choce_cont .choce_one navigator .one_text .text_one {
+  font-size: 30rpx;
+  color: #fff;
+  margin-bottom: 20rpx;
+  font-weight: 500;
+}
+.body .body_cont .two_choce .choce_cont .choce_one navigator .one_text .text_two {
+  font-size: 25rpx;
+  color: #fff;
+}
+.body .body_cont .two_choce .choce_cont .choce_two {
+  width: 45%;
+}
+.body .body_cont .two_choce .choce_cont .choce_two navigator {
+  width: 100%;
+  height: 150rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1rpx solid #32C871;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+}
+.body .body_cont .two_choce .choce_cont .choce_two navigator .two_img {
+  width: 100rpx;
+  height: 100rpx;
+}
+.body .body_cont .two_choce .choce_cont .choce_two navigator .two_img image {
+  width: 100%;
+  height: 100%;
+}
+.body .body_cont .two_choce .choce_cont .choce_two navigator .two_text {
+  width: 200rpx;
+  height: 150rpx;
+  box-sizing: border-box;
+  padding-top: 35rpx;
+  letter-spacing: 3rpx;
+  margin-left: 10rpx;
+}
+.body .body_cont .two_choce .choce_cont .choce_two navigator .two_text .text_one {
+  font-size: 30rpx;
+  color: #050505;
+  margin-bottom: 20rpx;
+  font-weight: 500;
+}
+.body .body_cont .two_choce .choce_cont .choce_two navigator .two_text .text_two {
+  font-size: 25rpx;
+  color: #858585;
+}

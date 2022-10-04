@@ -1,0 +1,144 @@
+.swiperRawp .swiperCotent {
+  width: 750rpx;
+  height: 340rpx;
+}
+.swiperRawp .swiperCotent .swiperItem {
+  height: 100%;
+}
+.swiperRawp .swiperCotent .swiperItem navigator {
+  height: 100%;
+}
+.swiperRawp .swiperCotent .swiperItem navigator image {
+  height: 100%;
+}
+.topNavRawp {
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #aaa;
+  background-color: #fff;
+  margin-top: 15rpx;
+}
+.topNavRawp .topNavcont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.topNavRawp .topNavcont .navIcon {
+  border: 1px solid black;
+  padding: 10rpx;
+  border-radius: 20%;
+  margin-top: 20rpx;
+}
+.watchFocuRawp {
+  width: 100%;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.watchFocuRawp .topTabs {
+  padding: 10rpx 20rpx;
+  height: 40rpx;
+  border-bottom: 1rpx solid #d8d3d3;
+}
+.watchFocuRawp .topTabs .topText {
+  float: left;
+  font-size: 30rpx;
+  color: #000000;
+}
+.watchFocuRawp .topTabs .iconfont {
+  float: right;
+  font-size: 30rpx;
+  color: #aaa;
+}
+.watchFocuRawp .foncu {
+  width: 100%;
+  height: 400rpx;
+}
+.watchFocuRawp .foncu navigator {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-bottom: 1rpx solid #dfdbdb;
+}
+.watchFocuRawp .foncu navigator .foncuText {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuUser {
+  width: 100%;
+  height: 100rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1rpx solid #aaa;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuUser navigator {
+  float: left;
+  width: 70rpx;
+  height: 70rpx;
+  border: 0;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuUser navigator .userImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuUser .userName {
+  margin-top: 12rpx;
+  margin-left: 20rpx;
+  float: left;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuUser .dete {
+  float: right;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuImage {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 300rpx;
+  box-sizing: border-box;
+  padding: 20rpx 20rpx;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuImage .oneImage {
+  width: 40%;
+  height: 240rpx;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuImage .oneImage image {
+  width: 100%;
+  height: 100%;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuImage .onetext {
+  width: 50%;
+  height: 200rpx;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuImage .onetext .headtext {
+  display: -webkit-box;
+  width: 100%;
+  height: 80rpx;
+  font-size: 25rpx;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10rpx;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /*设置p元素最大4行，父元素需填写宽度才明显*/
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuImage .onetext .bodytext {
+  width: 100%;
+  height: 130rpx;
+}
+.watchFocuRawp .foncu navigator .foncuText .foncuImage .onetext .bodytext text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 25rpx;
+}
+.none {
+  display: none;
+}

@@ -1,0 +1,40 @@
+<view class="weui-panel weui-panel_access">
+    <view class="weui-panel__bd">
+        <navigator url="/pages/formContent/index">
+            <view class="weui-media-box weui-media-box_text">
+                <h4 class="weui-media-box__title">三峡大学编程赛</h4>
+                <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+            </view>
+        </navigator>
+        <navigator url="/pages/formContent/index">
+            <view class="weui-media-box weui-media-box_text">
+                <h4 class="weui-media-box__title">三峡大学编程赛</h4>
+                <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+            </view>
+        </navigator>
+        <navigator url="/pages/formContent/index">
+            <view class="weui-media-box weui-media-box_text">
+                <h4 class="weui-media-box__title">三峡大学编程赛</h4>
+                <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+            </view>
+        </navigator>
+        <navigator url="/pages/formContent/index">
+            <view class="weui-media-box weui-media-box_text">
+                <h4 class="weui-media-box__title">三峡大学编程赛</h4>
+                <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+            </view>
+        </navigator>
+        <navigator url="/pages/formContent/index">
+            <view class="weui-media-box weui-media-box_text">
+                <h4 class="weui-media-box__title">三峡大学编程赛</h4>
+                <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+            </view>
+        </navigator>
+        <navigator url="/pages/formContent/index">
+            <view class="weui-media-box weui-media-box_text">
+                <h4 class="weui-media-box__title">三峡大学编程赛</h4>
+                <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+            </view>
+        </navigator>
+    </view>
+</view>

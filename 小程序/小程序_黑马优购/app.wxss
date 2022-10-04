@@ -1,0 +1,23 @@
+@import "./styles/iconfont.wxss";
+/* 全局使用 */
+page {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+page {
+    /* 
+    1.定义颜色变量 
+        --themeColor:#eb4450;
+    2.使用颜色变量
+        color:var(--themeColor)
+    */
+    --themeColor:#eb4450;
+    /*
+        定义字体大小 
+     */
+     font-size: 28rpx;
+}
+ image {
+     width: 100%;
+ }

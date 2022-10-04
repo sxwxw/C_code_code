@@ -1,0 +1,29 @@
+/* pages/infor/index.wxss */
+page {
+  background-color: #fff;
+}
+.infor .succss_infor {
+  height: 150rpx;
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  border: 1rpx solid #dddcdc;
+}
+.infor .succss_infor .user_head {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background-color: cadetblue;
+  margin-right: 30rpx;
+}
+.infor .succss_infor .infor_text .text_one {
+  color: #000;
+  font-size: 30rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+.infor .succss_infor .infor_text .text_two {
+  color: #aaa;
+  font-size: 25rpx;
+  font-weight: 300;
+}
